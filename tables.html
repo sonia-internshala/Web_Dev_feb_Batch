@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+</head>
+<body>
+    <!-- Tables in HTML -->
+    <table border="5" cellpadding="20px" cellspacing="10px">
+        <!-- header of the table -->
+        <thead>
+            <!-- 1 row -->
+            <tr>
+                <th>Serial No.</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+            </tr>
+        </thead>
+        <!-- main content of the table -->
+        <tbody>
+            <!-- 3 rows -->
+            <tr>
+                <th>1</th>
+                <td rowspan="2" colspan="2">Maths</td>
+                <td>Biology</td>
+                <!-- <td>Arts</td> -->
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>Maths</td>
+                <!-- <td>Physics</td> -->
+                <!-- <td>SUPW</td> -->
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>English</td>
+                <td>Maths</td>
+                <td>English</td>
+            </tr>
+        </tbody>
+
+        <!-- footer of the table -->
+        <tfoot>
+            <!-- 1 row -->
+            <tr>
+                <th colspan="4">Time Table of class X</th>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
